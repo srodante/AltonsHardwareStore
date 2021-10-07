@@ -23,7 +23,7 @@ public class AltonsHardwareStore {
                 totalFence = (2 * width) + (2 * length);
                 System.out.print("How many gates are requested: ");
                 numberOfGates = keybd.nextInt();
-                keybd.nextLine();
+                keybd.nextLine(); // flush the input buffer
                 do {      //Inner loop for invalid responses
                     System.out.print("What type of material is requested (wood/chain/both): ");
                     material = keybd.nextLine();
